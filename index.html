@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header-container">
+    <div class="invisible">
+      <div></div>
+    </div>
+    <div class="title-container">
+      <img src="/Flybondi_logo_simple.svg.png" alt="">
+    </div>
+    <div class="search-container">
+      <span class="search-icon">&#128269;</span>
+      <input type="text" id="searchInput" class="search-input" placeholder="Buscar...">
+    </div>
+    
+  </div>
+  <div class="asd">
+    <hr>
+  </div>
+
+  <header>
+    <nav>
+      <ul class="content-section">
+        <li><a href="#" data-category="all">Todos</a></li>
+        <li><a href="#" data-category="anexos">Anexos</a></li>
+        <li><a href="#" data-category="procedimientos">Procedimientos</a></li>
+        <!-- Agrega más categorías según sea necesario -->
+      </ul>
+    </nav>
+  </header>
+  <div class="main-container">
+    <div id="resultsContainer"></div>
+    <div id="pdfPopup">
+      <iframe id="pdfViewer" frameborder="0"></iframe>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
