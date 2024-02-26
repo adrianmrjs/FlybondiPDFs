@@ -1,6 +1,6 @@
 // Ejemplo de datos de PDFs
 const pdfs = [
-  { name: "ANEXO A", url: "/assets/PDFS/Ezeiza/ANEXOS/AnexoH.pdf", category: "anexos" },
+  { name: "ANEXO A", url: "assets/PDFS/Ezeiza/Anexos/AnexoH.pdf", category: "anexos" },
   { name: "ANEXO E", url: "pdfs/pdf2.pdf", category: "anexos" },
   { name: "PDF 2", url: "PDFS/PDF1.pdf", category: "procedimientos" },
   { name: "PDF 3", url: "pdfs/pdf2.pdf", category: "procedimientos" },
