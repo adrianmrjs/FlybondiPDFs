@@ -2,6 +2,7 @@
 const pdfs = [
   { name: "ANEXO H", url: "assets/PDFS/Ezeiza/Anexos/AnexoH.pdf", category: "anexos" },
   { name: "ANEXO E", url: "assets/PDFS/Ezeiza/Anexos/AnexoE.pdf", category: "anexos" },
+  { name: "EPP", url: "assets/PDFS/General/SeguridadEHIgiene/EntregaDeEpp.pdf", category: "Seguridad E Higiene" },
 ];
 
 // Función para mostrar los resultados de búsqueda filtrados por categoría
