@@ -1,10 +1,7 @@
 // Ejemplo de datos de PDFs
 const pdfs = [
-  { name: "ANEXO A", url: "assets/PDFS/Ezeiza/Anexos/AnexoH.pdf", category: "anexos" },
-  { name: "ANEXO E", url: "pdfs/pdf2.pdf", category: "anexos" },
-  { name: "PDF 2", url: "PDFS/PDF1.pdf", category: "procedimientos" },
-  { name: "PDF 3", url: "pdfs/pdf2.pdf", category: "procedimientos" },
-  { name: "INGRESO", url: "PDFS/PDF1.pdf", category: "procedimientos" },
+  { name: "ANEXO H", url: "assets/PDFS/Ezeiza/Anexos/AnexoH.pdf", category: "anexos" },
+  { name: "ANEXO E", url: "assets/PDFS/Ezeiza/Anexos/AnexoE.pdf", category: "anexos" },
 ];
 
 // Función para mostrar los resultados de búsqueda filtrados por categoría
